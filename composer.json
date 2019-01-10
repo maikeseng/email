@@ -1,0 +1,24 @@
+{
+    "name": "gzbszx/email",
+    "description": "this email easy interface",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "maikeseng",
+            "email": "haoqijian@126.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4" : {
+            "email\\QqEmail\\" : "qqemail"
+        },
+        "files" : [
+            "qqemail/QqEmail.php"
+        ],
+        "classmap" : [
+            "qqemail"
+        ]
+    }
+}
