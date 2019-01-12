@@ -4,36 +4,32 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitfb1b42dbf17c0b1d5755bc4b3c43aff4
+class ComposerStaticInit99c41fbe7ab7309a69d5805bb016b81f
 {
     public static $files = array (
-        'ec2b2aac46bf4c9a024bd9cdd88706f6' => __DIR__ . '/../..' . '/qqemail/QqEmail.php',
+        '8bc3f296b68fa1f2b6be2b1ec073516f' => __DIR__ . '/../..' . '/src/BsEmail.php',
+        'a7a9e9fbe58428b79ae6972633159984' => __DIR__ . '/../..' . '/src/qqemail/QqEmail.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'e' => 
+        'M' => 
         array (
-            'email\\QqEmail\\' => 14,
+            'Make\\MeEmail\\' => 13,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'email\\QqEmail\\' => 
+        'Make\\MeEmail\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/qqemail',
+            0 => __DIR__ . '/../..' . '/src',
         ),
-    );
-
-    public static $classMap = array (
-        'email\\qqemail\\QqEmail' => __DIR__ . '/../..' . '/qqemail/QqEmail.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitfb1b42dbf17c0b1d5755bc4b3c43aff4::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitfb1b42dbf17c0b1d5755bc4b3c43aff4::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitfb1b42dbf17c0b1d5755bc4b3c43aff4::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit99c41fbe7ab7309a69d5805bb016b81f::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit99c41fbe7ab7309a69d5805bb016b81f::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

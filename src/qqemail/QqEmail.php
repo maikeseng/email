@@ -5,7 +5,7 @@
  * Date: 2019/1/9
  * Time: 13:41
  */
-namespace email\qqemail;
+namespace Make\MeEmail\qqemail;
 
 class QqEmail
 {

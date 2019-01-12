@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'email\\QqEmail\\' => array($baseDir . '/qqemail'),
+    'Make\\MeEmail\\' => array($baseDir . '/src'),
 );

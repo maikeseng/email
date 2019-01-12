@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ec2b2aac46bf4c9a024bd9cdd88706f6' => $baseDir . '/qqemail/QqEmail.php',
+    '8bc3f296b68fa1f2b6be2b1ec073516f' => $baseDir . '/src/BsEmail.php',
+    'a7a9e9fbe58428b79ae6972633159984' => $baseDir . '/src/qqemail/QqEmail.php',
 );

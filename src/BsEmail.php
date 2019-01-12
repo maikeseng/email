@@ -1,7 +1,7 @@
 <?php
-namespace email;
+namespace Make\MeEmail;
 
-use email\qqemail\QqEmail;
+use Make\MeEmail\qqemail\QqEmail;
 
 class BsEmail
 {
@@ -21,9 +21,10 @@ class BsEmail
    */
   public static function qq()
   {
-    //echo 'qq类';
+    echo 'qq类';
     //return 'qq类';
-    return new QqEmail();
+    //return new QqEmail();
+     return new QqEmail();
   }
 
   /**
